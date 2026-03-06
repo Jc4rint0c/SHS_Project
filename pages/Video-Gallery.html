@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LCBA | Video Gallery</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="../assets/img/favicon_LCBA/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <a class="logo" href="../index.html"></a>
+
+    <nav class="nav-menu">
+      <ul>
+        <li class="dropdown">
+          <a class="links" href="#">About LCBA</a>
+
+          <ul class="dropdown-menu">
+            <li><a href="About-LCBA/Founder.html">The Founder</a></li>
+            <li><a href="About-LCBA/PMV.html">Philosophy, Mission, Vision</a></li>
+            <li><a href="About-LCBA/Values.html">Core Values</a></li>
+            <li><a href="About-LCBA/Objectives.html">Quality Objectives</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a class="links" href="#">About Strand</a>
+
+          <ul class="dropdown-menu">
+            <li><a href="About-TVL-ICT/TVL-ICT.html">TVL-ICT</a></li>
+            <li><a href="About-TVL-ICT/Subjects.html">Specialized Subjects</a></li>
+            <li><a href="About-TVL-ICT/Career.html">Career Benefits</a></li>
+          </ul>
+        </li>
+
+        <li><a class="links" href="Image-Gallery.html">Image Gallery</a></li>
+        <li><a class="links" href="Video-Gallery.html">Video Gallery</a></li>
+        <li><a class="links" href="Games.html">Games</a></li>
+      </ul>
+    </nav>
+
+    <button class="portal-btn">Student Portal</button>
+  </header>
+
+  <section class="hero-about-lcba hero-video-gallery blur">
+    <div>
+      <h1 class="reveal">Video Gallery</h1>
+      <p class="reveal">Watch our activities and projects</p>
+    </div>
+  </section>
+
+  <div class="video-gallery">
+    <div class="video-card">
+      <div class="video-overlay">
+        <span class="play-btn">&#9658;</span>
+      </div>
+      <video poster="../assets/img/what-is-css.png" muted>
+        <source src="../assets/videos/CSS Tutorial Video.mp4" type="video/mp4">
+      </video>
+      <p class="caption"> TVL-ICT CONFIGURATION TUTORIAL VIDEO</p>
+    </div>
+
+    <div class="video-card">
+      <div class="video-overlay">
+        <span class="play-btn">&#9658;</span>
+      </div>
+      <video muted>
+        <source src="../assets/videos/HE Marketing Video.mp4" type="video/mp4">
+      </video>
+      <p class="caption">TVL-H.E PROMOTIONAL VIDEO</p>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div id="videoModal" class="video-modal">
+    <span class="close">&times;</span>
+    <video id="modalVideo" controls autoplay></video>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+
+    <div class="footer-grid">
+
+      <div>
+        <h4>About</h4>
+        <p>Mission</p>
+        <p>Vision</p>
+        <p>Philosophy</p>
+      </div>
+
+      <div>
+        <h4>TVL-ICT</h4>
+        <p>CSS</p>
+        <p>Web Development</p>
+        <p>Programming</p>
+      </div>
+
+      <div>
+        <h4>Admissions</h4>
+        <p>Apply</p>
+        <p>Tuition</p>
+        <p>Scholarships</p>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <p>Email</p>
+        <p>Phone</p>
+        <p>Campus Map</p>
+      </div>
+
+    </div>
+
+    <p class="copyright">
+      © 2026 Laguna College of Business and Arts
+    </p>
+
+  </footer>
+
+  <script src="../video-gallery.js"></script>
+  <script src="../animation.js"></script>
+
+</body>
+
+</html>
